@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="manifest" href="manifest.json">
+
+    <style>
+        .background-dark {
+            background-color: #262626;
+        }
+        
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .margin-top {
+            margin-top: 20px;
+        }
+        
+        .margin-left {
+            margin-left: 50px;
+        }
+        
+        .padding-top {
+            padding-top: 50px;
+        }
+    </style>
+
+
+    <script>
+        //mp3 
+        let alarm1 = new Audio('1.mp3');
+        let alarm2 = new Audio('2.mp3');
+
+
+        function start1() {
+            alarm1.play();
+        }
+
+        function start2() {
+            alarm2.play();
+        }
+        //*if (start1() {
+        //                alarm1.play();
+        //                else alarm1 = true
+        //            }
+    </script>
+</head>
+
+
+<body class="background-dark">
+
+
+
+
+    <!--<div class="center margin-top timer" id="timer">05 : 30</div> -->
+
+
+    <div class="center margin-top margin-left padding-top">
+        <img onclick="start1()" src="img/Huhn.png">
+    </div>
+
+    <div class="center margin-top margin-left padding-top">
+        <img onclick="start2()" src="img/Hase.png">
+    </div>
+
+</body>
+
+</html>
