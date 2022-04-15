@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>text_ente</title>
 
-
+    <scrip>
+        function goback() { history.go(-1); }
+    </scrip>
 
     <STYLE>
         .background-dark {
@@ -18,36 +20,38 @@
             color: #990000;
         }
         
-        h1 color {
+        h2 color {
             color: red
         }
     </STYLE>
 
 </head>
 
-<body class="background-dark" , class="color">
+<body class="background-dark" , style="color: rgb(249, 246, 246);">
     <h2>Alle meine Entchen</h2>
 
-    <p>Alle meine Entchen Schwimmen auf dem See,</p>
-    <p>Schwimmen auf dem See,</p>
-    <p>Köpfchen unter Wasser,</p>
-    <p>Schwänzchen in die Höh'.</p>
-    <br></br>
-    <p>
-        Alle meine Hühnchen Scharren in dem Stroh,</p>
-    <p>Scharren in dem Stroh,</p>
-    <p>Finden sie ein Körnchen,</p>
-    <p> Sind sie alle froh.</p>
+    <p<p style="color: rgb(249, 246, 246);"></p>
+        <p>Alle meine Entchen Schwimmen auf dem See,</p>
+        <p>Schwimmen auf dem See,</p>
+        <p>Köpfchen unter Wasser,</p>
+        <p>Schwänzchen in die Höh'.</p>
+        <br></br>
+        <p>Alle meine Hühnchen Scharren in dem Stroh,</p>
+        <p>Scharren in dem Stroh,</p>
+        <p>Finden sie ein Körnchen,</p>
+        <p> Sind sie alle froh.</p>
+        <br></br>
+        <p>Alle meine Täubchen Gurren auf dem Dach,</p>
+        <p>Gurren auf dem Dach!</p>
+        <p>Fliegt eins in die Lüfte,</p>
+        <p>Fliegen alle nach.</p>
 
-    <BR>
-    </h2>
-    <p>Alle meine Täubchen Gurren auf dem Dach,</p>
-    <p>Gurren auf dem Dach!</p>
-    <p>Fliegt eins in die Lüfte,</p>
-    <p>Fliegen alle nach.</p>
-    <ul>Alle meine Täubchen Gurren auf dem Dach, Gurren auf dem Dach! Fliegt eins in die Lüfte, Fliegen alle nach
+        <input type="button" value="Zurück" onClick="javascript:history.back()">
+        <!-- <a href="javascript:history.back()">Zurück</a> -->
 
-    </ul>
+        <a href="javascript:window.back()">Zurück</a>
+        <a href=”javascript:goback()”>Zurück</a>
+
 </body>
 
 </html>
