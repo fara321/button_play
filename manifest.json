@@ -1,10 +1,9 @@
 {
-    "name": "Eieruhr",
-    "short_name": "eig Eieruhr",
-    "theme_color": "#262626",
-    "background_color": "#262626",
-    "display": "fullScreen",
-    "orientation": "portrait",
-    "scope": "/",
+    "theme_color": "#262626"
+    "background_color": "#262626"
+    "display": "fullscreen"
+    "scope": "/"
     "start_url": "/"
-  }
+    "name": "Eieruhr"
+    "short_name": "Eieruhr"
+}
