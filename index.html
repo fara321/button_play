@@ -47,56 +47,52 @@
         let alarm6 = new Audio('Alle_Vögel.m4a');
         let alarm7 = new Audio('Hensel.m4a');
         let alarm8 = new Audio('Kuckuck.m4a');
+        let alarm9 = new Audio('opa.aac');
 
 
-       async function start1() {
+        function start1() {
             alarm1.play();
             window.open('text_ente.html');
-             await Sleep(60000);
-           
         }
 
-        async function start2() {
+        function start2() {
             alarm2.play();
             window.open('text_bienchen.html');
-            await Sleep(60000);
         }
 
-        async function start3() {
+        function start3() {
             alarm3.play();
             window.open('text_hase.html');
-            await Sleep(60000);
         }
 
-        async function start4() {
+        function start4() {
             alarm4.play();
             window.open('text_kuchen.html');
-            await Sleep(60000);
         }
 
-        async function start5() {
+        function start5() {
             alarm5.play();
             window.open('text_fuchs.html');
-            await Sleep(60000);
         }
 
-        async function start6() {
+        function start6() {
             alarm6.play();
             window.open('text_vögel.html');
-            await Sleep(60000);
         }
 
-        async function start7() {
+        function start7() {
             alarm7.play();
             window.open('text_hänsel.html');
-            await Sleep(60000);
         }
 
 
-        async function start8() {
+        function start8() {
             alarm8.play();
             window.open('text_kuckuck.html');
-            await Sleep(60000);
+        }
+
+        function start9() {
+            alarm9.play();
         }
     </script>
 </head>
@@ -119,7 +115,7 @@
         }
     </style>
 
-    <h1>Lilly´s erste Lieder mit Text (e w)  </h1>
+    <h1>Lilly´s erste Lieder mit Text </h1>
 
 
     <!--<div class="center margin-top timer" id="timer">05 : 30</div> -->
@@ -156,6 +152,9 @@
             <img onclick="start8()" src="img/kuckuck.png">
         </div>
 
+        <div class=" maring-top margin-left padding-top">
+            <img onclick="start9()" src="opa.png">
+        </div>
 
 </body>
 
